@@ -52,6 +52,7 @@ function App() {
               onKeyPress={search}
               />
           </div>
+          <div className="info">Find your city's weather information</div>
           {(typeof weather.main != "undefined") ? (
              <div>
              <div className="location-box">
