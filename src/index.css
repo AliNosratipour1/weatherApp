@@ -16,11 +16,15 @@ body{
   transition: 0.4 ease-out;
 }
 
-/*
+/**/
 .app.hot{
-background-image: url('./assets/hot.jpg');
+background-image: url('./assets/hot.jpg') ;
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+
 }
-*/
+
 main{
   min-height: 100vh;
   padding: 25px;
