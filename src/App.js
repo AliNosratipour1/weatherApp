@@ -37,7 +37,7 @@ function App() {
   }
   return (
     <div className={(typeof weather.main != "undefined")
-      ? ((weather.main.temp > 16) 
+      ? ((weather.main.temp > 10) 
       ? 'app hot' 
       : 'app')
       : 'app'}>
@@ -60,7 +60,7 @@ function App() {
           </div>
           <div className="weather-box">
             <div className="temp">
-            {Math.round(weather.main.temp_max)}°C
+            {Math.round(weather.main.temp)}°C
             
           </div>
           <div className="weather"> {weather.weather[0].main}</div>
